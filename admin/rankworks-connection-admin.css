@@ -1,0 +1,190 @@
+.rankworks-form-section
+{
+	width: 100% !important;
+    max-width: 100% !important;
+}
+.rankworks-form-section > * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.rankworks-form-section {
+  background: linear-gradient(117deg, #001955 29.45%, #28C8F0 101.42%), linear-gradient(117deg, #001955 29.45%, #28C8F0 101.42%);
+}
+
+.rankworks-form-section .validation-container {
+  background-image: url(../assets/images/validation-email-bg.png);
+  background-position-x: 110px;
+    background-position-y: 350px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.rankworks-form-section .login-form {
+  background-image: url(../assets/images/last-form-bg.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.rankworks-form-section .login-container {
+  background-image: url(../assets/images/last-form-bg.png);
+  background-repeat: no-repeat;
+  background-size:60%;
+  background-position: center;
+}
+
+.rankworks-form-section .main-container > div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  grid-gap: 60px;
+  height: 100vh;
+  min-height: 800px;
+}
+.rankworks-form-section .main-container .business-info-container,
+.rankworks-form-section .main-container .validation-container,
+.rankworks-form-section .main-container .login-container {
+  display: none;
+}
+.rankworks-form-section .main-container .left-section img {
+  width: 450px;
+}
+@media only screen and (max-width: 767px) {
+  .rankworks-form-section .main-container .left-section {
+    display: none;
+  }
+}
+.rankworks-form-section .main-container .form-container {
+  width: 568px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+  background: var(--White, #FFF);
+  box-shadow: 8px 8px 0px 0px #CAD7E5;
+  position: relative;
+}
+.rankworks-form-section .main-container .form-container span.close-btn {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.rankworks-form-section .main-container .form-container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #D7DCF0;
+  width: 100%;
+}
+.rankworks-form-section .main-container .form-container .form-heading {
+  margin: 0 0 16px;
+}
+.rankworks-form-section .main-container .form-container .form-heading p {
+  text-align: left !important;
+  color: #001955 !important;
+  font-family: Mulish !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  line-height: normal !important;
+  margin: 0 !important;
+}
+.rankworks-form-section .main-container .form-container div.form {
+  padding: 36px 0 0;
+  display: grid;
+  grid-gap: 16px;
+}
+.rankworks-form-section .main-container .form-container div.form p {
+  color: #00003C;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 32px;
+}
+.rankworks-form-section .main-container .form-container div.form .single-field label {
+  color: #00003C;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  margin: 0 0 8px;
+}
+.rankworks-form-section .main-container .form-container div.form .single-field input {
+  height: 48px;
+  width: 100%;
+  padding: 0 16px;
+  color: #8C96BE;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #001955;
+  border-radius: 4px;
+  outline: none;
+}
+.rankworks-form-section .main-container .form-container div.form .single-field.custom-radio {
+  display: flex;
+  grid-gap: 16px;
+}
+.rankworks-form-section .main-container .form-container div.form .single-field.custom-radio label {
+  display: flex;
+  align-items: center;
+  grid-gap: 8px;
+}
+.rankworks-form-section .main-container .form-container div.form .single-field.custom-radio input {
+  width: auto;
+  height: auto;
+  min-height: 16px;
+}
+.rankworks-form-section .main-container .form-container div.form button {
+  margin: 0 auto;
+  color: #fff;
+  width: 66px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #001955;
+  box-shadow: 4px 4px 0px 0px #28C8F0;
+  cursor: pointer;
+  padding: 0;
+}
+.rankworks-form-section .main-container .form-container p.connected {
+  color: #23b491;
+  color: #23b491;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: absolute;
+  top: 25px;
+}
+.rankworks-form-section .main-container .validation-box {
+  width: 400px;
+  height: 400px;
+}
+.rankworks-form-section .main-container .validation-box .form-heading p {
+  text-align: center;
+}
+.rankworks-form-section .main-container .login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .rankworks-form-section .main-container {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rankworks-form-section .mobile-form {
+    height: auto;
+  }
+}
+
